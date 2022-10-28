@@ -1,0 +1,12 @@
+Results for the extraLargeArray
+insert 782.611755 ms  (unshift made this function run extremely slower than it wouldve if it had just used .push)
+append 2.687135 ms (using .push made this time much quicker and efficient.)
+extraLargeArray(100000) = 12.643198 ms
+largeArray(10000) = 1.323997 ms
+mediumArray(1000) = 219.741 μs
+smallArray(100) = 897.103 μs
+tinyArray(10) = 81.851 μs
+
+
+
+
